@@ -1,0 +1,89 @@
+	body {
+		background-color: #e9ebee;
+	}
+	.menu {
+	font-family: "Trebuchet MS";
+	position : fixed;
+	float: left;
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+	text-align: left;
+	border : 1px solid #dddfe2;
+	background-color: #f5f6f7;
+	
+	}
+	.contenu {
+	font-family: "Trebuchet MS";
+	float: right;
+	width: 70%;
+	padding: 10px;
+	margin-left: 10px;
+	border : 1px solid #dddfe2;
+	margin-right: 10px;
+	
+	}
+	.nouveau_post {
+	text-align: center;	
+	font-family: "Trebuchet MS";
+	margin: auto;
+	width: 700px;
+	height: 200px;
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius : 10px;
+	border : 1px solid #dddfe2;
+	background-color: #f5f6f7;
+	
+	
+	}
+	.affiche_post {
+	font-family: "Trebuchet MS";
+	text-align: left;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	margin-top: 5px;
+	margin-right: 300px ;
+	margin-left: 105px ;
+	border : 2px solid #dddfe2;
+	border-radius : 10px;
+	background-color: #f5f6f7;
+	
+	}
+	.a:hover {
+	text-decoration:underline;
+	}
+	.b:hover {
+	background-color: #e4e6eb;
+	}
+	hr {
+	width: 470px;
+	color : #ced0d4;
+	height: 0px;
+	position: relative;
+	bottom: -3px;
+	}
+	.affichecom {
+	/* par défaut les définitions sont masquées mais conservées dans le flux. Ce qui permet aux "robots" d'accéder à ce contenu. */
+	  position: absolute;
+	  overflow: hidden;
+	  clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
+	  clip: rect(1px, 1px, 1px, 1px);
+	}
+	.affichecom:target {
+	/* Lorsqu'une définition est la cible d'un lien (action cliquer), celle-ci rétablit le style des définitions les rendants visibles à l'oeil. */
+	  position: relative;
+	  height: auto;
+	  padding: initial;
+	  clip: initial;
+	  
+	}
+	.masquom {
+	/* définition explicite afin de pouvoir interagir dessus par la suite. */
+	  display: block;
+	  text-decoration: none;
+	  color: #6f676b;
+	  
+		
+	}
